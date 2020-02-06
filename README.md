@@ -15,8 +15,19 @@ Enjoy!
 
 ##### How to install
 
-After enabling the EPM, all you need to do is to replace the search bar code in <code>cfg/templates/default.xml</code> with 
+You will need to enable and link\_lib the package.
+
+One way to do it is:
+<code>
+# clone this repository in eprint3/lib/epm
+./eprint3/tools/epm enable [ARCHIVE NAME] simply\_advanced\_searchbar
+./eprint3/tools/epm link_lib simply\_advanced\_searchbar
+#reloading the config and restarting Apache is recommended
+</code>
+
+
+At this point, all you need to do is to replace the search bar code in <code>cfg/templates/default.xml</code> with 
 
 <code><epc:phrase ref="simply_advanced_search_searchbar"/></code>
 
-Please note that it is likely that further HTML/CSS adjustments will be needed in order to ensure that the search bar looks right in the specific design of your repository.in order to ensure that the search bar looks right in the specific design of your repository.  
+Please note that it is very likely that further HTML/CSS adjustments will be needed in order to ensure that the search bar looks right in the specific design of your repository.in order to ensure that the search bar looks right in the specific design of your repository.  
