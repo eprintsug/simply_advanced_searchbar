@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no" ?>
+<!DOCTYPE phrases SYSTEM "entities.dtd">
+
+<epp:phrases xmlns="http://www.w3.org/1999/xhtml" xmlns:epp="http://eprints.org/ep3/phrase" xmlns:epc="http://eprints.org/ep3/control">
+
+    <epp:phrase id="simply_advanced_search_searchbar">
+
+        <form id="smuc_top_searchbar" class="pull-right" accept-charset="utf-8" method="get" action="{$config{rel_cgipath}}/simply_advanced_search">
+            <div>
+                <select name="target_field" id="simply_advanced_searchbar_term_selection">
+                    <option value="title">Title</option>
+                    <option value="creators_name">Author</option>
+                    <option value="date">Date</option>
+                </select>
+                <div style="width: 85%;float: right;" >
+                <input type="search" class="form-control" id="navbar-search" name="value_for_simply_advanced_search" placeholder="Search Repository" style="width: 93%; float: left;" />
+                <span class="input-group-btn">
+                    <button id="btn-search" class="btn btn-default" value="{phrase('lib/searchexpression:action_search')}" type="submit" name="simply_advanced_action_search" >
+                        <i class="fa fa-search"></i>
+                  </button>
+                </span>
+            </div>
+        </div>
+      </form>
+     </epp:phrase>
+</epp:phrases>

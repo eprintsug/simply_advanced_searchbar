@@ -1,0 +1,27 @@
+use EPrints;
+
+use strict;
+use warnings;
+use URI;
+use CGI;
+
+my $repo = EPrints->new->current_repository;
+exit( 0 ) unless( defined $repo );
+
+# Getting the target key and value pair from the GET query
+my $q = CGI->new;
+my $target_field = $q->param("target_field");
+my $target_value = $q->param("value_for_simply_advanced_search");
+
+# create the URL for redirection
+my $URL_string = $repo->get_conf("http_url")->as_string;
+$URL_string .= '/cgi/search/archive/advanced?screen=Search&dataset=archive&_action_search=Search';
+my $URL_obj = URI->new($URL_string); 
+
+# Adding the relevant target and value
+$URL_obj->query_form($target_field => $target_value);
+
+# Redirect to an advanced search
+$repo->redirect($URL_obj->as_string);
+
+exit;
