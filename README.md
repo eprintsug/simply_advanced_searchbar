@@ -16,6 +16,7 @@ Enjoy!
 ##### How to install
 
 After enabling the EPM, all you need to do is to replace the search bar code in <code>cfg/templates/default.xml</code> with 
-<pre><epc:phrase ref="simply_advanced_search_searchbar"/></pre>
+
+<code><epc:phrase ref="simply_advanced_search_searchbar"/></code>
 
 Please note that it is likely that further HTML/CSS adjustments will be needed in order to ensure that the search bar looks right in the specific design of your repository.in order to ensure that the search bar looks right in the specific design of your repository.  
