@@ -9,9 +9,9 @@
           <datasetid>document</datasetid>
           <filename>lang/en/phrases/0_simply_advanced_search.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>5fa59f00cc0f1f383b25d100f60d72e8</hash>
+          <hash>ac595b418a92c545afa51d6e314e96d1</hash>
           <hash_type>MD5</hash_type>
-          <filesize>1244</filesize>
+          <filesize>1354</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -21,10 +21,18 @@
           <hash_type>MD5</hash_type>
           <filesize>730</filesize>
         </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>epm/simply_advanced_searchbar/cfg/cfg.d/z_simply_advanced_searchbar.pl</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>bc06f586a441858b1dabc95d10e6131d</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>182</filesize>
+        </file>
       </files>
       <mime_type>text/plain</mime_type>
       <format>text</format>
-      <main>epm/simply_advanced_searchbar/cgi/simply_advanced_search</main>
+      <main>epm/simply_advanced_searchbar/cfg/cfg.d/z_simply_advanced_searchbar.pl</main>
       <content>install</content>
     </document>
   </documents>
@@ -38,7 +46,7 @@
       <id>you@email.address</id>
     </item>
   </creators>
-  <datestamp>2020-02-06 11:46:37</datestamp>
+  <datestamp>2020-02-06 13:52:16</datestamp>
   <title>Simply Advanced Search Bar</title>
   <description>This is the description.</description>
   <requirements>The following modules are required: X, Y, Z</requirements>

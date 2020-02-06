@@ -31,3 +31,18 @@ At this point, all you need to do is to replace the search bar code in <code>cfg
 <code><epc:phrase ref="simply_advanced_search_searchbar"/></code>
 
 Please note that it is very likely that further HTML/CSS adjustments will be needed in order to ensure that the search bar looks right in the specific design of your repository.in order to ensure that the search bar looks right in the specific design of your repository.  
+
+
+Finally, you can specify which fields appear in the search bar's drop-down menu by adding them to the array ref in <code>cfg/cfg.d/z_simply_advanced_searchbar.pl</code> in your local config, which looks like this:
+
+
+<pre>
+
+$c->{simply_advanced_searchbar_fields} = [qw/
+    title
+    creators_name
+    date
+/];
+
+
+</pre>
