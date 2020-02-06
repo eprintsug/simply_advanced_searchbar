@@ -1,0 +1,13 @@
+#simply_advanced_searchbar_term_selection {
+    background-color: white;
+    color: black;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #002f6c;
+    height: 1.75em;
+    bottom: 1.61em;
+    font-size: 1.4em;
+    width: 5em;
+    position: relative;
+    right: -.5em;
+    bottom: -.19em;
+}
