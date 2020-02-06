@@ -9,9 +9,9 @@
           <datasetid>document</datasetid>
           <filename>lang/en/phrases/0_simply_advanced_search.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>2b19508204b2c0e81d6305f6a2b13d30</hash>
+          <hash>5fa59f00cc0f1f383b25d100f60d72e8</hash>
           <hash_type>MD5</hash_type>
-          <filesize>1364</filesize>
+          <filesize>1244</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -38,7 +38,7 @@
       <id>you@email.address</id>
     </item>
   </creators>
-  <datestamp>2020-02-06 11:38:40</datestamp>
+  <datestamp>2020-02-06 11:46:37</datestamp>
   <title>Simply Advanced Search Bar</title>
   <description>This is the description.</description>
   <requirements>The following modules are required: X, Y, Z</requirements>

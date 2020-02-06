@@ -5,22 +5,19 @@
 
     <epp:phrase id="simply_advanced_search_searchbar">
 
-        <form id="smuc_top_searchbar" class="pull-right" accept-charset="utf-8" method="get" action="{$config{rel_cgipath}}/simply_advanced_search">
-            <div>
+        <form id="smuc_top_searchbar" accept-charset="utf-8" method="get" action="{$config{rel_cgipath}}/simply_advanced_search">
                 <select name="target_field" id="simply_advanced_searchbar_term_selection">
                     <option value="title">Title</option>
                     <option value="creators_name">Author</option>
                     <option value="date">Date</option>
                 </select>
-                <div style="float: right;" >
-                <input type="search" class="form-control" id="navbar-search" name="value_for_simply_advanced_search" placeholder="Search Repository" style="float: left;" />
+                
+                <input type="search" class="form-control" id="navbar-search" name="value_for_simply_advanced_search" placeholder="Search Repository" />
                 <span class="input-group-btn">
                     <button id="btn-search" class="btn btn-default" value="{phrase('lib/searchexpression:action_search')}" type="submit" name="simply_advanced_action_search" >
                         Search
                   </button>
                 </span>
-            </div>
-        </div>
       </form>
      </epp:phrase>
 </epp:phrases>
