@@ -16,7 +16,7 @@
                 <input type="search" class="form-control" id="navbar-search" name="value_for_simply_advanced_search" placeholder="Search Repository" style="width: 93%; float: left;" />
                 <span class="input-group-btn">
                     <button id="btn-search" class="btn btn-default" value="{phrase('lib/searchexpression:action_search')}" type="submit" name="simply_advanced_action_search" >
-                        <i class="fa fa-search"></i>
+                        Search
                   </button>
                 </span>
             </div>
