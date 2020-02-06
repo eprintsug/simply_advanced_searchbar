@@ -2,6 +2,7 @@
 
 #### A replacement to EPrint's simple searchbar
 
+![EPrint Simply Advanced Search Bar](images/simply_advanced_searchbar.png "Simply Advanced_Search Bar")
 
 The simple search functionality in EPrint repositories has some known problems, which lead to inconsistent search results. On the other hand, the advanced search functionality is known for providing more consistent and reliable results.
 
