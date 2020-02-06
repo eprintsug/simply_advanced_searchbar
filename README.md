@@ -18,12 +18,12 @@ Enjoy!
 You will need to enable and link\_lib the package.
 
 One way to do it is:
-<code>
-# clone this repository in eprint3/lib/epm
+<pre>
+\# clone this repository in eprint3/lib/epm
 ./eprint3/tools/epm enable [ARCHIVE NAME] simply\_advanced\_searchbar
 ./eprint3/tools/epm link_lib simply\_advanced\_searchbar
-#reloading the config and restarting Apache is recommended
-</code>
+\#reloading the config and restarting Apache is recommended
+</pre>
 
 
 At this point, all you need to do is to replace the search bar code in <code>cfg/templates/default.xml</code> with 
