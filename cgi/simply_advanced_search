@@ -14,8 +14,7 @@ my $target_field = $q->param("target_field");
 my $target_value = $q->param("value_for_simply_advanced_search");
 
 # create the URL for redirection
-my $URL_string = $repo->get_conf("http_url")->as_string;
-$URL_string .= '/cgi/search/archive/advanced?screen=Search&dataset=archive&_action_search=Search';
+my $URL_string = '/cgi/search/archive/advanced';
 my $URL_obj = URI->new($URL_string); 
 
 # Adding the relevant target and value
