@@ -15,6 +15,7 @@ my $target_value = $q->param("value_for_simply_advanced_search");
 
 # create the URL for redirection
 my $URL_string = '/cgi/search/archive/advanced';
+$URL_string = $repo->config( "simply_advanced_search_url" ) if defined $repo->config( "simply_advanced_search_url" );
 my $URL_obj = URI->new($URL_string); 
 
 # Adding the relevant target and value
